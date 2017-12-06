@@ -5,8 +5,8 @@ const body = document.body
 let index = 0;
 
 function init(e) {
-  const key = parseInt(e.detail || e.which);
-  console.log(e.location);
+  const key = parseInt(e.which);
+  console.log(e.which);
   if (key === code[index]) {
     index++;
 
