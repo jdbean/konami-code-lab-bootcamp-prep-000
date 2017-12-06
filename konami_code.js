@@ -22,4 +22,4 @@ function init(e) {
 
 }
 
-body.addEventListener('keydown', init(e))
+body.addEventListener('keydown', init)
