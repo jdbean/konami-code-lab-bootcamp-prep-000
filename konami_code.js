@@ -10,7 +10,7 @@ function init(e) {
   if (key === code[index]) {
     index++;
 
-    if index === code.length {
+    if (index === code.length) {
       alert("Way to go, you have been granted infinite lives");
 
       index = 0;
