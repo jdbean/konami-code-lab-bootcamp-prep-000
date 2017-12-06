@@ -21,6 +21,4 @@ function init(e) {
 
 }
 
-body.addEventListener('keydown', init(e) {
-  console.log(e.which)
-})
+body.addEventListener('keydown', init(e))
