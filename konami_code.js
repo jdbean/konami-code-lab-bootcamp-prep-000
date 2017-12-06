@@ -4,7 +4,7 @@ const body = document.body
 
 let index = 0;
 
-body.addEventListener('keydown', fucntion(e) {
+body.addEventListener('keydown', init(e) {
 
   console.log(e.which)
 
