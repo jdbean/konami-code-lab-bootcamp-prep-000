@@ -11,7 +11,7 @@ body.addEventListener('keydown', function init(e) {
     index++;
 
     if (index === code.length) {
-      alert("Way to go, you have been granted infinite lives");
+      alert("Way to go; you have been granted infinite lives");
 
       index = 0;
     }
