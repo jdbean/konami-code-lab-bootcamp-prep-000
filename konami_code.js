@@ -1,11 +1,11 @@
 const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
 
-const main = document.getElementById('body')
+const body = document.body
 
 
 let index = 0;
 
-main.addEventListener('keydown', init(e) {
+body.addEventListener('keydown', init(e) {
   console.log(e.which)
 })
 
