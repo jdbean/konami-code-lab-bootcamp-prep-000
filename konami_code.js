@@ -20,5 +20,4 @@ function init() {
     } else {
       index = 0;
     }
-  body.addEventListener('keydown', test);
 })
