@@ -23,7 +23,3 @@ function init(e) {
 }
 
 body.addEventListener('keydown', init)
-
-function functionName() {
-
-}
